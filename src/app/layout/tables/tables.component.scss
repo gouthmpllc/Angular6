@@ -1,0 +1,74 @@
+.button{
+    float:right;
+    // margin-left:890px;
+    padding:2px;
+    border-radius:20px;
+    margin-left:900px;
+    margin-top:-50px;
+}
+.heading{
+    margin-top:20px;
+}
+hr{
+    border:1px solid black;
+}
+.borderbox{
+    box-sizing: content-box;    
+    width: 920px;
+    height: 1px;
+    padding: 30px;    
+    border: 2px solid black;
+    padding-top:2px;
+    border-radius:10px;
+}
+.fa fa-search{
+    border-radius:45px;
+    margin-left:25px;
+    height:25px;
+    
+}
+.search{
+    margin-left:70px;
+}
+// #myinput::-webkit-input-placeholder::before { 
+//     content: ' ';
+//     position: absolute;
+//     top: 2px; /* adjust icon position */
+//     left: 0px;
+//     width: 14px; /* size of a single icon */
+//     height: 14px;
+//     background-image: url("/path/to/icons.png"); /* all icons in a single file */
+//     background-repeat: no-repeat;
+//     background-position: -48px 0px; /* position of the right icon */
+// }
+input[type=text] {
+    width: 50%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('/assets/images/searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+}
+
+.module{
+    
+        box-sizing: border-box;
+    
+          width: 250px;
+          height: 200px;
+          padding: 40px;    
+          border: 1px solid black;
+    
+      
+    
+}
+
+
+.image{
+
+    float: "right=100px";
+}

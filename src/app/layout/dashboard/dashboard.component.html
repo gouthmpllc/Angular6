@@ -1,0 +1,375 @@
+<div [@routerTransition]>
+    <h2 class="text-muted">Dashboard <small> Projects Overview</small></h2>
+    <!-- <div class="row">
+        <div class="col-md-12">
+            <ngb-carousel>
+                <ng-template ngbSlide *ngFor="let slider of sliders">
+                    <img class="img-fluid mx-auto d-block" [src]="slider.imagePath" alt="Random first slide" width="100%">
+                    <div class="carousel-caption">
+                        <h3>{{slider.label}}</h3>
+                        <p>{{slider.text}}</p>
+                    </div>
+                </ng-template>
+            </ngb-carousel>
+        </div>
+    </div> -->
+    <hr>
+    <div class="row">
+        <!-- <div class="col-xl-3 col-lg-6">
+            <app-stat [bgClass]="'primary'" [icon]="'fa-comments'" [count]="26" [label]="'New Comments!'" ></app-stat>
+        </div>
+        <div class="col-xl-3 col-lg-6">
+            <app-stat [bgClass]="'warning'" [icon]="'fa-tasks'" [count]="12" [label]="'New task!'" ></app-stat>
+        </div>
+        <div class="col-xl-3 col-lg-6">
+            <app-stat [bgClass]="'success'" [icon]="'fa-shopping-cart'" [count]="124" [label]="'New Orders!'" ></app-stat>
+        </div>
+        <div class="col-xl-3 col-lg-6">
+            <app-stat [bgClass]="'danger'" [icon]="'fa-support'" [count]="13" [label]="'New Tickets!'"></app-stat>
+        </div> -->
+    </div>
+    <div class="row">
+        <div class="col col-xl-6 col-lg-12">
+            <div class="card mb-3">
+                <div class="card-header">
+                    Testing project - Users
+                </div>
+                <div class="card-body table-responsive">
+                    <table class="table">
+                        <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Users</th>
+                            <th>status</th>
+                            
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                            <td>Connected</td>
+                            
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Jacob</td>
+                            <td>Disconnected</td>
+                            
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>Larry</td>
+                            <td>Idle</td>
+                           
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="card mb-3">
+                <div class="card-header">Testing Project Services</div>
+                <div class="card-body table-responsive">
+                    <table class="table">
+                        <thead class="thead-inverse">
+                        <tr>
+                            <th>#</th>
+                            <th>Service</th>
+                            <th>Status</th>
+                           
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>GitHub</td>
+                            <td>connected</td>
+                            
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>CircleCi</td>
+                            <td>Idle</td>
+                            
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>AWS</td>
+                            <td>Disconnected</td>
+                            
+                        </tr>
+                        </tbody>
+                    </table>
+                    <table class="table">
+                        <thead class="thead-default">
+                        <tr>
+                            <th>Bookmarks</th>
+                            <!-- <th>First Name</th>
+                            <th>Last Name</th>
+                            <th>Username</th> -->
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                            <!-- <td>Otto</td>
+                            <td>@mdo</td> -->
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Jacob</td>
+                            <!-- <td>Thornton</td>
+                            <td>@fat</td> -->
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>Larry</td>
+                            <!-- <td>the Bird</td>
+                            <td>@twitter</td> -->
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!-- <div class="card mb-3">
+                <div class="card-header">Bordered table</div>
+                <div class="card-body table-responsive">
+                    <table class="table table-bordered">
+                        <thead>
+                        <tr>
+                            
+                            <th>Bookmarks</th>
+                            
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Testing EG</td>
+                            <td>Adam Uhlir</td>
+                            <td>Rajesh Narayan</td>
+                        </tr>
+                       
+                        </tbody>
+                    </table>
+                </div>
+            </div> -->
+            <!-- <div class="card mb-3">
+                <div class="card-header">Small table</div>
+                <table class="table table-sm">
+                    <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Username</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td colspan="2">Larry the Bird</td>
+                        <td>@twitter</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div> -->
+        </div>
+        <div class="col col-xl-6 col-lg-12">
+            <div class="card mb-3">
+                <div class="card-header">Inverse table</div>
+                <div class="card-body table-responsive">
+                    <table class="table table-inverse">
+                        <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>First Name</th>
+                            <th>Last Name</th>
+                            <th>Username</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Jacob</td>
+                            <td>Thornton</td>
+                            <td>@fat</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>Larry</td>
+                            <td>the Bird</td>
+                            <td>@twitter</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="card mb-3">
+                <div class="card-header">Striped Rows</div>
+                <div class="card-body table-responsive">
+                    <table class="table table-hover table-striped">
+                        <thead>
+                        <tr>
+                            <th>Page</th>
+                            <th>Visits</th>
+                            <th>% New Visits</th>
+                            <th>Revenue</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>/index.html</td>
+                            <td>1265</td>
+                            <td>32.3%</td>
+                            <td>$321.33</td>
+                        </tr>
+                        <tr>
+                            <td>/about.html</td>
+                            <td>261</td>
+                            <td>33.3%</td>
+                            <td>$234.12</td>
+                        </tr>
+                        <tr>
+                            <td>/sales.html</td>
+                            <td>665</td>
+                            <td>21.3%</td>
+                            <td>$16.34</td>
+                        </tr>
+                        <tr>
+                            <td>/blog.html</td>
+                            <td>9516</td>
+                            <td>89.3%</td>
+                            <td>$1644.43</td>
+                        </tr>
+                        <tr>
+                            <td>/404.html</td>
+                            <td>23</td>
+                            <td>34.3%</td>
+                            <td>$23.52</td>
+                        </tr>
+                        <tr>
+                            <td>/services.html</td>
+                            <td>421</td>
+                            <td>60.3%</td>
+                            <td>$724.32</td>
+                        </tr>
+                        <tr>
+                            <td>/blog/post.html</td>
+                            <td>1233</td>
+                            <td>93.2%</td>
+                            <td>$126.34</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="card mb-3">
+                <div class="card-header">Hoverable rows</div>
+                <table class="card-body table table-hover">
+                    <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Username</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td colspan="2">Larry the Bird</td>
+                        <td>@twitter</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="card mb-3">
+                <div class="card-header">Contextual classes</div>
+                <table class="card-body table">
+                    <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Username</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr class="table-active">
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                    </tr>
+                    <tr class="table-success">
+                        <th scope="row">2</th>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                    </tr>
+                    <tr class="table-info">
+                        <th scope="row">3</th>
+                        <td>Larry</td>
+                        <td>the Bird</td>
+                        <td>@twitter</td>
+                    </tr>
+                    <tr class="table-warning">
+                        <th scope="row">3</th>
+                        <td>Larry</td>
+                        <td>the Bird</td>
+                        <td>@twitter</td>
+                    </tr>
+                    <tr class="table-danger">
+                        <th scope="row">3</th>
+                        <td>Larry</td>
+                        <td>the Bird</td>
+                        <td>@twitter</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <hr />
+    
+    <div class="row">
+        <div class="col-lg-8">
+            
+        </div>
+        <!-- /.col-lg-8 -->
+       
+        <!-- /.col-lg-4 -->
+    </div>
+</div>
