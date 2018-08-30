@@ -13,7 +13,7 @@ describe('TablesComponent', () => {
   }))
 
   it('should create', () => {
-    const fixture = TestBed.createComponent(TablesComponent)
+    const fixture = TestBed.createComponent(TablesComponent)      
     const component = fixture.componentInstance
     expect(component).toBeTruthy( )
   })
