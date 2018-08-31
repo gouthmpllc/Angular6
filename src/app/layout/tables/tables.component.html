@@ -1,80 +1,127 @@
-<!-- <div [@routerTransition]>
-    <app-page-header [heading]="'Endpoints'" [icon]="'fa-table'"></app-page-header>
-<button style="font-size:19px" float="left">Add Endpoint<i class="fa fa-plus-circle"></i></button> &nbsp;
-<br/>
-
-
-<i style="font-size:24px" ></i>
-    <div class="row">
-        <div class="col-lg-6">
-           <form role="form">
-              <fieldset class="form-group" >
-                <label>Filter</label> &nbsp;
-                <!-- <input class="form-control" > -->
-<!-- <span class="fa fa-search " width="15px" height="15px" ></span> &nbsp;
-                <input name="q" placeholder="Search endpoint... " autocomplete="off" aria-label="Search endpoint..." type="search" class="header__searchInput___102CH f5 fw3 black bg-white relative" element="input" value="">
-              </fieldset>
-
-
-            </form>  
-        </div> 
-    </div>  
-
-   
-</div> -->
-
 <div class="container-fluid">
     <div class="row">
-        <h2 class="heading">ENDPOINTS</h2>
-        <button class="button">Addbutton</button>
+        <button class="button2">AddEndpoints</button>
+
+        <h1>EndPoints</h1>
+
     </div>
 </div>
 <hr>
-<div class="borderbox">
-    <div class="row">
-        <p>Filter</p>
-        <!-- <div class="search">
-            <i class="fa fa-search">
-                <input class="fa fa-search" type="text" placeholder="searchendpoint">
-            </i>
-        </div> -->
-        <form>
-            <input type="text" name="search" placeholder="Search..">
-        </form>
+<div _ngcontent-c4="" style="border:  1px solid;/* padding-top:90px; */border-radius: 22px;padding: 9px;padding-left:70px;">
+    <!-- <p>Filter</p> -->
+    <div id="x" style="position:relative;/* padding: 20px; */">
+        <span _ngcontent-c4="" class="glyphicon glyphicon-search" style="color:black;position:  absolute;left: 6px;top: 6px;">
+        </span>
+
+        <input _ngcontent-c4="" placeholder="search" style="color:black;border-radius:20px;padding-left: 23px;border: 1px solid #000;"
+            type="text">
+        <div style="width:30%;">
+            <label class="container">sapresourse
+                <input type="checkbox" checked="checked">
+                <span class="checkmark"></span>
+            </label>
+        </div>
+
+        <div class="inline-box">
+            <i class="fas fa-caret-down"></i>
+            <input type="text" list="projects" placeholder="project" style="border-radius:6px" />
+            <datalist id="cars">
+                <option>Sap</option>
+                <option>Aws</option>
+                <option>CircleCl</option>
+                <option>Hadoop Cluster</option>
+            </datalist>
+        </div>
+        <div class="inline-box2">
+            <i class="fas fa-caret-down"></i>
+            <input type="text" list="type" placeholder="type" style="border-radius:6px" />
+            <datalist id="cars">
+                <option>Sap</option>
+                <option>Aws</option>
+                <option>CircleCl</option>
+                <option>Hadoop Cluster</option>
+            </datalist>
+        </div>
+
+
+
     </div>
 </div>
-<hr>
-<div class="module">
-    <div class="row">
-        <p>Database servers</p>
-
-
-    </div>
-
-</div>
-
-<div class="module">
-    <div class="container-fluid">
-        <div class="col-sm-4">
-            <h1 class="image">
-                <img src="assets/images/sap.png" alt="sap" width="90px">
-                <h3 class="Database">Database servers</h3>
-                <br>
-                <p class="ip">4IPS/SAP GW(EG)</p>
-                <br>
-                <p class="ip"> 2projects</p>
-            </h1>
+<br>
+<div class="col-xs-6-sm-5-lg-8">
+    <div class="box-container">
+        <div class="col-lg-4">
+            <div class="b">
+                <div class="col-lg-4">
+                    <img src="assets/images/KeuqE95ykk.png">
+                </div>
+                <div class="col-lg-8">
+                    <h1>Database Server</h1>
+                    <h2>1IPS | SAP GW | (EG)</h2>
+                    <h3>2 Projects</h3>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="b">
+                <div class="col-lg-4">
+                    <img src="assets/images/hQungFWqyk.png">
+                </div>
+                <div class="col-lg-8">
+                    <h1>Application Server</h1>
+                    <h2>2IPS | AWS GW | (EG)</h2>
+                    <h3>Testing Project</h3>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="b">
+                <div class="col-lg-4">
+                    <img src="assets/images/KeuqE95ykk.png">
+                </div>
+                <div class="col-lg-8">
+                    <h1>Network Storage</h1>
+                    <h2>10.4.5.1|(EpG)</h2>
+                    <h3>No Project</h3>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="b">
+                <div class="col-lg-4">
+                    <img src="assets/images/rr4a67kpBy.png">
+                </div>
+                <div class="col-lg-8">
+                    <h1>CircleCI</h1>
+                    <h2>2IPS |VM(EG) </h2>
+                    <h3>Dev Cluster</h3>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="b">
+                <div class="col-lg-4">
+                    <img src="assets/images/KeuqE95ykk.png">
+                </div>
+                <div class="col-lg-8">
+                    <h1>Git</h1>
+                    <h2>1IPS/SAP(EG) </h2>
+                    <h3>NO PROJECTS</h3>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="b">
+                <div class="col-lg-4">
+                    <img src="assets/images/eQxxebz2Xe.png">
+                </div>
+                <div class="col-lg-8">
+                    <h1>HadoopCluster</h1>
+                    <h2>10IPS/EC2#2(EG) </h2>
+                    <h3 style="color:white">1project</h3>
+                </div>
+            </div>
         </div>
     </div>
-
 </div>
-<div _ngcontent-c4="" style="border: 1px solid;/* padding-top:90px; */border-radius: 22px;padding: 9px;">
-    <div id="x" style="position:relative;/* padding: 20px; */">
-    <span _ngcontent-c4="" class="glyphicon glyphicon-search" style="color:black;position: absolute;left: 6px;top: 6px;">
-    </span>
-    <input _ngcontent-c4="" placeholder="search" style="color:black;border-radius:20px;padding-left: 23px;border: 1px solid #000;"
-    type="text">
-    </div>
-</div>
-
-
+<button class="Loadmore">Loadmore</button>
