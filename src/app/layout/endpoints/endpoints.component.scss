@@ -1,0 +1,548 @@
+.add-catbtn{
+    padding: 6px 27px;
+    background: #424a4d;
+    color: #fff;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #d5d5d5;
+}
+.table>tbody>tr>td{
+    border-top:0px !important;
+}
+.table>thead>tr>th{
+    border-bottom:0px !important;
+}
+
+.settings-table-box{
+    max-height: 176px;
+    overflow: scroll;
+}
+.settings-table-box2{
+    max-height: 414px;
+    overflow: scroll;
+}
+
+/* scroll styles width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0px 0px 0px grey; 
+    border-radius: 15px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #000; 
+    border-radius: 10px;
+}
+/* Create a custom checkbox */
+
+/* Create a custom checkbox */
+input[type='checkbox'] {
+    /* height: 15px;
+    width: 15px;
+    border:1px solid silver;
+    background-color: transparent;; */
+    /* display: none; */
+
+}
+
+input[type='checkbox']:after 
+{
+
+    height: 15px;
+    width: 15px;
+    left: -1px;
+    position: relative;
+    background-color: #fff;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid silver;
+    -webkit-transition: 0.5s ease;
+    transition: 0.5s ease;
+    cursor: pointer;
+
+}
+input[type='checkbox']:checked:after 
+{
+    background-color: #41533b;
+}
+.button2{
+    float:right;
+    border-radius:10px;
+   margin:15px;
+}
+.container-fluid{
+    text-decoration:underline;
+
+}
+hr {
+    width: 100%;
+    height: 1px;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    background-color:black;
+    border: 0 none;
+    margin-top: 30px;
+    /* margin-bottom:100px; */
+    }
+
+    .image {
+        border-style: solid;
+        border-width: thin;
+        width: 58%;
+        height:-10%;
+        margin-left: -20px;
+        margin-top: 15px;
+        padding:10px;
+        padding-top: 10px;
+    }
+    .Dbserver{
+        font-size:20px;
+        color:black;
+        
+    }
+    .ip{
+        font-size:20px;
+    }
+    .button{
+        box-sizing: content-box;    
+        width: 1450px;
+        height: 10px;
+        padding: 20px;    
+        border: 1px solid black;
+    
+        margin-bottom:5px;
+        border-radius:15px;
+    }
+  .search{
+      width:250px;
+      margin-top:-70px;
+  }
+  span.a {
+    display: inline; 
+    width: 350px;
+    height: 110px;
+    padding: 15px;
+    border: 1px solid black;    
+  
+    margin-left:-10px;
+}
+
+.box-container{
+    width: 100%;
+    float: left;
+}
+
+.b {
+    float: left;
+    border: 1px solid #000;
+    width: 94%;
+    padding: 3%;
+    margin: 15px;
+}
+/* .b2{
+    float:left;
+    border:1px solid #000;
+    width:94%;
+    padding:3%;
+    margin:15px;
+} */
+
+.b h1 {
+    font-size: 16px;
+    font-weight: bold;
+    text-align:center;
+}
+.b h2 {
+    font-size: 16px;
+    text-align: center;
+    margin: 0;
+}
+.b h3 {
+    font-size: 14px;
+    text-align: center;
+}
+.b img{
+    width: 100%;
+    float: left;
+    margin-top: 38%;
+}
+
+/* span.b[_ngcontent-c4] {
+    display: inline-block;
+    width: 242px;
+    height: 110px;
+    padding: -37px;
+    padding-left: 15px;
+    border: 1px solid black;
+    margin-left: 60px;
+} */
+
+span.c {
+    display: block;
+    width: 350px;
+    height: 110px;
+    padding: 15px;
+    border: 1px solid royalblue;        
+
+    margin-left:120px;
+}
+.box-container{
+    padding:10px;
+}
+.Loadmore{
+    background-color:grey;
+    margin-left:500px;
+    width:300px;
+    height:40px;
+    border-radius:10px;
+}
+.container[_ngcontent-c4] {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: -2px;
+    cursor: pointer;
+    font-size: 22px;
+    margin-left: 268px;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    /* user-select: none; */
+    margin-top: -28px;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    margin-top:5px;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked.checkmark {
+    /* background-color: none; */
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+    display: block;
+}
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+    margin-left:2px;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+ 
+.inline-box {
+    position: absolute;
+    top: 0;
+    left: 50%;
+}
+.inline-box input{
+    border-radius: 14px;
+    border: 1px solid #000;
+    padding-left: 6px;
+    outline: 0;
+}
+input::-webkit-calendar-picker-indicator {
+    opacity: 0;
+}
+.fas{
+    font-family: FontAwesome;
+    position: absolute;
+    right: 0px;
+    font-size: 18px;
+    font-style: normal;
+    top: 1px;
+    background: #ccc;
+    border-left: 1px solid #000;
+    width: 23px;
+    height: 93%;
+    border-radius: 0 14px 14px 0;
+    padding-left: 5px;
+}
+.inline-box2 {
+    position: absolute;
+    top: 0;
+    left: 80%;
+}
+.inline-box2 input{  
+    border-radius: 14px;
+    border: 1px solid #000;
+    padding-left: 16px;
+    outline: 0;
+} 
+.c {
+    float: left;
+    border: 1px solid #000;
+    width: 94%;
+    padding: 3%;
+    margin: 15px;
+}
+
+
+.c h1 {
+    font-size: 16px;
+    font-weight: bold;
+    text-align:center;
+}
+.c h2 {
+    font-size: 16px;
+    text-align: center;
+    margin: 0;
+}
+.c h3 {
+    font-size: 14px;
+    text-align: center;
+}
+.c img{
+    width: 100%;
+    float: left;
+    margin-top: 38%;
+}
+.d {
+    float: left;
+    border: 1px solid #000;
+    width: 94%;
+    padding: 3%;
+    margin: 15px;
+}
+/* .b2{
+    float:left;
+    border:1px solid #000;
+    width:94%;
+    padding:3%;
+    margin:15px;
+} */
+
+.d h1 {
+    font-size: 16px;
+    font-weight: bold;
+    text-align:center;
+}
+.d h2 {
+    font-size: 16px;
+    text-align: center;
+    margin: 0;
+}
+.d h3 {
+    font-size: 14px;
+    text-align: center;
+}
+.d img{
+    width: 100%;
+    float: left;
+    margin-top: 38%;
+}
+.e {
+    float: left;
+    border: 1px solid #000;
+    width: 94%;
+    padding: 3%;
+    margin: 15px;
+}
+/* .b2{
+    float:left;
+    border:1px solid #000;
+    width:94%;
+    padding:3%;
+    margin:15px;
+} */
+
+.e h1 {
+    font-size: 16px;
+    font-weight: bold;
+    text-align:center;
+}
+.e h2 {
+    font-size: 16px;
+    text-align: center;
+    margin: 0;
+}
+.e h3 {
+    font-size: 14px;
+    text-align: center;
+}
+.e img{
+    width: 100%;
+    float: left;
+    margin-top: 38%;
+}
+.b {
+    float: left;
+    border: 1px solid #000;
+    width: 94%;
+    padding: 3%;
+    margin: 15px;
+}
+/* .b2{
+    float:left;
+    border:1px solid #000;
+    width:94%;
+    padding:3%;
+    margin:15px;
+} */
+
+.b h1 {
+    font-size: 16px;
+    font-weight: bold;
+    text-align:center;
+}
+.b h2 {
+    font-size: 16px;
+    text-align: center;
+    margin: 0;
+}
+.b h3 {
+    font-size: 14px;
+    text-align: center;
+}
+.b img{
+    width: 100%;
+    float: left;
+    margin-top: 38%;
+}
+.b {
+    float: left;
+    border: 1px solid #000;
+    width: 94%;
+    padding: 3%;
+    margin: 15px;
+}
+/* .b2{
+    float:left;
+    border:1px solid #000;
+    width:94%;
+    padding:3%;
+    margin:15px;
+} */
+
+.b h1 {
+    font-size: 16px;
+    font-weight: bold;
+    text-align:center;
+}
+.b h2 {
+    font-size: 16px;
+    text-align: center;
+    margin: 0;
+}
+.b h3 {
+    font-size: 14px;
+    text-align: center;
+}
+.b img{
+    width: 100%;
+    float: left;
+    margin-top: 38%;
+}
+
+.f {
+    float: left;
+    border: 1px solid #000;
+    width: 94%;
+    padding: 3%;
+    margin: 15px;
+}
+/* .b2{
+    float:left;
+    border:1px solid #000;
+    width:94%;
+    padding:3%;
+    margin:15px;
+} */
+
+.f h1 {
+    font-size: 16px;
+    font-weight: bold;
+    text-align:center;
+}
+.f h2 {
+    font-size: 16px;
+    text-align: center;
+    margin: 0;
+}
+.f h3 {
+    font-size: 14px;
+    text-align: center;
+}
+.f img{
+    width: 100%;
+    float: left;
+    margin-top: 38%;
+}
+.g {
+    float: left;
+    border: 1px solid #000;
+    width: 94%;
+    padding: 3%;
+    margin: 15px;
+}
+/* .b2{
+    float:left;
+    border:1px solid #000;
+    width:94%;
+    padding:3%;
+    margin:15px;
+} */
+
+.g h1 {
+    font-size: 16px;
+    font-weight: bold;
+    text-align:center;
+}
+.g h2 {
+    font-size: 16px;
+    text-align: center;
+    margin: 0;
+}
+.g h3 {
+    font-size: 14px;
+    text-align: center;
+}
+.g img{
+    width: 100%;
+    float: left;
+    margin-top: 38%;
+}
+
+
+
