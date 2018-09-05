@@ -9,11 +9,11 @@ const routes: Routes = [
         children: [
             { path: '', redirectTo: 'dashboard', pathMatch: 'prefix' },
             { path: 'dashboard', loadChildren: './dashboard/dashboard.module#DashboardModule' },
-            { path: 'charts', loadChildren: './charts/charts.module#ChartsModule' },
-            { path: 'tables', loadChildren: './tables/tables.module#TablesModule' },
-            { path: 'forms', loadChildren: './form/form.module#FormModule' },
-            { path: 'bs-element', loadChildren: './bs-element/bs-element.module#BsElementModule' },
-            { path: 'grid', loadChildren: './grid/grid.module#GridModule' },
+            { path: 'projects', loadChildren: './projects/projects.module#ProjectsModule' },
+            { path: 'endpoints', loadChildren: './endpoints/endpoints.module#EndpointsModule' },
+            { path: 'gateways', loadChildren: './gateways/gateways.module#GatewaysModule' },
+            { path: 'accounts', loadChildren: './accounts/accounts.module#AccountsModule' },
+            { path: 'profile', loadChildren: './profile/profile.module#ProfileModule' },
             { path: 'components', loadChildren: './bs-component/bs-component.module#BsComponentModule' },
             { path: 'blank-page', loadChildren: './blank-page/blank-page.module#BlankPageModule' }
         ]
