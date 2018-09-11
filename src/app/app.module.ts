@@ -7,8 +7,12 @@ import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 
 import { AppRoutingModule } from './app-routing.module';
+
 import { AppComponent } from './app.component';
 import { AuthGuard } from './shared';
+import { AddprojectComponent } from './addfields/addproject/addproject.component';
+// import { NewendpointComponent } from './newendpoint/newendpoint.component';
+
 
 // AoT requires an exported function for factories
 export const createTranslateLoader = (http: HttpClient) => {
@@ -36,7 +40,7 @@ export const createTranslateLoader = (http: HttpClient) => {
         }),
         AppRoutingModule
     ],
-    declarations: [AppComponent],
+    declarations: [AppComponent, AddprojectComponent],
     providers: [AuthGuard],
     bootstrap: [AppComponent]
 })

@@ -9,6 +9,8 @@ const routes: Routes = [
     { path: 'signup', loadChildren: './signup/signup.module#SignupModule' },
     { path: 'error', loadChildren: './server-error/server-error.module#ServerErrorModule' },
     { path: 'access-denied', loadChildren: './access-denied/access-denied.module#AccessDeniedModule' },
+    // { path: 'newendpoint', loadChildren:'./newendpoint/newendpoint.module#NewendpointModule'},
+    { path: 'addendpoint', loadChildren:'./addendpoint/addendpoint.module#AddendpointModule'},
    
     
 ];

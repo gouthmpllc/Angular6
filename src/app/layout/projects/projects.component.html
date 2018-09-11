@@ -1,5 +1,11 @@
 <div [@routerTransition]>
-    <app-page-header [heading]="'Projects'" [icon]="'fa-bar-chart-o'"></app-page-header>
+
+
+    
+
+    <div><button type="button" [routerLink]="['/addproject']"   class="projects"> Addprojects</button></div>
+    <app-page-header [heading]="'Projects'" [icon]="'fa-bar-chart-o'" ></app-page-header>
+
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
     
@@ -22,11 +28,16 @@
     tr:nth-child(even) {
         background-color: #dddddd;
     }
+    h1, h2, h3, h4, h5, h6 {
+    margin-top: -39px;
+    margin-bottom: 0.5rem;
+}
     </style>
     </head>
+   
     <body>
     
-    
+           
     
     <table>
       <tr>
