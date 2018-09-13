@@ -3,6 +3,7 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 
@@ -10,7 +11,9 @@ import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
 import { AuthGuard } from './shared';
-import { AddprojectComponent } from './addfields/addproject/addproject.component';
+// import { AddprojectComponent } from './addproject/addproject.component';
+// import { AddprojectComponent } from './addproject.component';
+// import { AddprojectModule } from '../addproject/addproject.module';
 // import { NewendpointComponent } from './newendpoint/newendpoint.component';
 
 
@@ -31,6 +34,7 @@ export const createTranslateLoader = (http: HttpClient) => {
         BrowserModule,
         BrowserAnimationsModule,
         HttpClientModule,
+        // LayoutRoutingModule ,
         TranslateModule.forRoot({
             loader: {
                 provide: TranslateLoader,
@@ -40,7 +44,7 @@ export const createTranslateLoader = (http: HttpClient) => {
         }),
         AppRoutingModule
     ],
-    declarations: [AppComponent, AddprojectComponent],
+    declarations: [AppComponent],
     providers: [AuthGuard],
     bootstrap: [AppComponent]
 })

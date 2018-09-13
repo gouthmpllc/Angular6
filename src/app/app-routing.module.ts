@@ -11,6 +11,11 @@ const routes: Routes = [
     { path: 'access-denied', loadChildren: './access-denied/access-denied.module#AccessDeniedModule' },
     // { path: 'newendpoint', loadChildren:'./newendpoint/newendpoint.module#NewendpointModule'},
     { path: 'addendpoint', loadChildren:'./addendpoint/addendpoint.module#AddendpointModule'},
+    // { path: 'addproject', loadChildren:'./layout/projects/addproject/addproject.module#AddprojectModule'},
+    { path: 'addproject', loadChildren:'./addproject/addproject.module#AddprojectModule'},
+    
+    
+   
    
     
 ];

@@ -15,7 +15,11 @@ const routes: Routes = [
             { path: 'accounts', loadChildren: './accounts/accounts.module#AccountsModule' },
             { path: 'profile', loadChildren: './profile/profile.module#ProfileModule' },
             { path: 'components', loadChildren: './bs-component/bs-component.module#BsComponentModule' },
-            { path: 'blank-page', loadChildren: './blank-page/blank-page.module#BlankPageModule' }
+            { path: 'blank-page', loadChildren: './blank-page/blank-page.module#BlankPageModule' },
+            // { path: 'addproject', loadChildren:'./addproject/addproject.module#AddprojectModule'},
+            
+            
+            
         ]
     }
 ];
