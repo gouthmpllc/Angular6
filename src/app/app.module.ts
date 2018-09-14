@@ -11,6 +11,7 @@ import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
 import { AuthGuard } from './shared';
+import { PageHeaderModule } from './shared';
 // import { AddprojectComponent } from './addproject/addproject.component';
 // import { AddprojectComponent } from './addproject.component';
 // import { AddprojectModule } from '../addproject/addproject.module';
@@ -34,6 +35,7 @@ export const createTranslateLoader = (http: HttpClient) => {
         BrowserModule,
         BrowserAnimationsModule,
         HttpClientModule,
+        PageHeaderModule,
         // LayoutRoutingModule ,
         TranslateModule.forRoot({
             loader: {

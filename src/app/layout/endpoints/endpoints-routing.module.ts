@@ -4,7 +4,8 @@ import { EndpointsComponent } from './endpoints.component';
 
 const routes: Routes = [
     {
-        path: '', component: EndpointsComponent
+        path: '', 
+        component: EndpointsComponent
     }
 ];
 

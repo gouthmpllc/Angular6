@@ -7,11 +7,11 @@ import { ProjectsRoutingModule } from './projects-routing.module';
 import { ProjectsComponent } from './projects.component';
 import { PageHeaderModule } from '../../shared';
 // import { AddprojectComponent } from './addproject/addproject.component';
-import { AddprojectComponent } from '../../addproject/addproject.component';
+// import { AddprojectComponent } from '../../addproject/addproject.component';
 
 @NgModule({
     imports: [CommonModule,  ProjectsRoutingModule, PageHeaderModule],
-    declarations: [ProjectsComponent, AddprojectComponent]
+    declarations: [ProjectsComponent],
 })
 export class ProjectsModule {}
 
