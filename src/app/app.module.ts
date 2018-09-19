@@ -13,19 +13,14 @@ import { AppComponent } from './app.component';
 import { AuthGuard } from './shared';
 import { PageHeaderModule } from './shared';
 // import { AddprojectComponent } from './addproject/addproject.component';
-// import { AddprojectComponent } from './addproject.component';
+// import { AddprojectComponent } from './addproject/addproject.component';
 // import { AddprojectModule } from '../addproject/addproject.module';
 // import { NewendpointComponent } from './newendpoint/newendpoint.component';
 
 
 // AoT requires an exported function for factories
 export const createTranslateLoader = (http: HttpClient) => {
-    /* for development
-    return new TranslateHttpLoader(
-        http,
-        '/start-angular/SB-Admin-BS4-Angular-6/master/dist/assets/i18n/',
-        '.json'
-    ); */
+    
     return new TranslateHttpLoader(http, './assets/i18n/', '.json');
 };
 
@@ -46,8 +41,9 @@ export const createTranslateLoader = (http: HttpClient) => {
         }),
         AppRoutingModule
     ],
-    declarations: [AppComponent],
+    declarations: [AppComponent  ],
     providers: [AuthGuard],
     bootstrap: [AppComponent]
 })
 export class AppModule {}
+// AddprojectComponent
